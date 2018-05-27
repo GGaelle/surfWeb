@@ -88,3 +88,105 @@ h1 {
   line-height: 25px;
   margin-bottom: 20%;
 }
+
+
+
+/* section dicton */
+.dicton {
+  margin-top: 10%;
+  margin-bottom: 5%
+}
+.text-dicton {
+  text-align: center;
+  font-family: 'Bentham', serif;
+  color: #5c5c5c;
+  font-style: italic;
+  font-size: 28px;
+  font-weight: lighter;
+}
+.auteur {
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Helvetica', sans-serif;
+  color: #757575;
+  margin-top: -15px
+}
+
+.divider {
+  border: 0.75px solid #15c4c9;
+  width: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: -40px
+}
+
+
+
+/* Section Observation */
+.observation {
+  margin-top: 12%;
+  margin-bottom: 7%;
+  background-image: url("images/observ-fond.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  margin-left: 12%
+}
+.text-observation {
+  font-size: 17px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  margin-left: 12%;
+  color: #757575;
+  line-height: 25px;
+  margin-top: 70%
+}
+.observation img {
+  width: 87%;
+  margin-right: 7%;
+  margin-top: 4%
+}
+
+
+
+
+/* Footer */
+.footer {
+  background-image: url("images/footer-img.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.footer-title {
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  padding-right: 70px;
+  color: #757575;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 10%;
+  margin-bottom: 3%
+}
+.ion-social-linkedin {
+  color: #757575;
+  font-size: 25px;
+  margin-bottom: 3%;
+}
+.linkedin {
+  text-align: center;
+  margin-top: 20%;
+}
+.ion-social-linkedin:hover {
+  color: #15c4c9
+}
+.ion-social-github {
+  color: #757575;
+  font-size: 25px;
+  margin-bottom: 3%;
+}
+.github {
+  text-align: center;
+  margin-top: 20%;
+}
+.ion-social-github:hover {
+  color: #15c4c9
+}
