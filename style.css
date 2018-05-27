@@ -50,38 +50,41 @@ font-family: 'Bentham', serif;
  body {
    margin: 0;
    padding: 0;
+   background-image: url("images/fond.png");
+   background-repeat: no-repeat;
+   background-size: cover;
  }
 
-.img1 {
-  padding-top: 85px;
-  float: right;
-  padding-right: 100px;
-  width: 75%;
-}
 
+/* header  */
+header {
+  background-image: url("images/surf1.jpg");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position:right;
+  margin-right: 7%;
+  margin-top: 3%;
+}
 h1 {
   font-size: 80px;
   font-family: 'Bentham', serif;
-  margin-left: 300px;
-  margin-top: 350px;
-  position: absolute;
+  margin-left: 12%;
+  line-height: 30px;
 }
 .micro-title {
   font-size: 20px;
   font-family: 'Helvetica', sans-serif;
   font-weight: lighter;
-  margin-left: 303px;
-  margin-top: 345px;
-  position: absolute;
-  color: #15c4c9
+  color: #15c4c9;
+  margin-left: 12%;
+  margin-top: 16%;
 }
-p {
+.text {
   font-size: 17px;
   font-family: 'Helvetica', sans-serif;
   font-weight: lighter;
-  margin-left: 303px;
-  margin-top: 445px;
-  position: absolute;
+  margin-left: 12%;
   color: #757575;
-  line-height: 25px
+  line-height: 25px;
+  margin-bottom: 20%;
 }
